@@ -143,6 +143,51 @@ a:hover {
     padding-right: 5px;
 }
 
+.about {
+    background-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.about p {
+    text-align: justify;
+    font-weight: 700;
+}
+
+.about img {
+    object-fit: cover;
+    height: 350px;
+    width: 100%;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+.tarifs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eaeaea;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.tarifs-container p {
+    text-align: center;
+}
+
+.tarifs-container img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -180,6 +225,10 @@ footer img {
 
     .pizza-card {
         width: 30%;
+    }
+
+    .about img {
+        height: 500px;
     }
 }
 
@@ -235,6 +284,6 @@ footer img {
     .footer-nav-bar ul {
         font-size: 14px;
         margin-right: 10px;
-        gap:80px;
-    } 
+        gap: 80px;
+    }
 }
