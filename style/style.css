@@ -161,7 +161,7 @@ a:hover {
 
 .about img {
     object-fit: cover;
-    height: 350px;
+    height: 100%;
     width: 100%;
     border-radius: 20px;
     padding-top: 10px;
@@ -225,10 +225,6 @@ footer img {
 
     .pizza-card {
         width: 30%;
-    }
-
-    .about img {
-        height: 500px;
     }
 }
 
